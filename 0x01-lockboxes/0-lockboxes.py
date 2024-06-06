@@ -3,8 +3,7 @@
 
 
 def canUnlockAll(boxes):
-    """Checking the list of lists and the content
-       of a list and unlocking other lists
+    """Checking the list of lists.
     """
 
     keys = [0]
