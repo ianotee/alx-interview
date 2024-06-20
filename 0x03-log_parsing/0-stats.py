@@ -1,11 +1,13 @@
 #!/usr/bin/python3
 """Write a script that reads stdin line by line and computes metrics
+    Input format: <IP Address> - [<date>] "GET /projects/260 HTTP/1.1"
+    <status code> <file size>
 """
 
 
 import sys
 
-# store the count of all status codes in a dictionary
+'''store the count in a dictionary'''
 status_codes_dict = {'200': 0, '301': 0, '400': 0, '401': 0, '403': 0,
                      '404': 0, '405': 0, '500': 0}
 
