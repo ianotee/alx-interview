@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-""" N queens Interview Question """
+""" N queens Interview Questions """
 
 import sys
 
